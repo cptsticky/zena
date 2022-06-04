@@ -39,8 +39,11 @@ POC code - placed into the Name input field:
 ![image](https://user-images.githubusercontent.com/81385287/171973970-c2f7eefe-4cfe-4a64-ad27-4691324c1952.png)
 
 ## Proof of Concept code for XXE to SSRF to Data Exfiltration exploit for asg-zena
-CVE-2021-45024
+
+CVE-2021-45024 XXE
+
 CVE-2021-45022 SSRF
+
 Authors: James Barnett and Jeffrey Green
 
 XXE(XML External Entity) (CWE-611):
