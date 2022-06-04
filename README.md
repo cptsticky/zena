@@ -1,6 +1,6 @@
 # Zena
 
-## Proof of Concept code for XSS
+## Zena CookieMonster is POC code for XSS to RCE
 
 The CookieMonster POC is a proof of concept for achieving Remote Code Execution on the Zena Server and ALL of it's connected endpoints.
 Since zena is an IT orchastrator that is primarly used on an enterprises internal network it often is connected to many devices and can allow a rapid pivot and compromise of many devices as well as a pivot to other internal domains.
