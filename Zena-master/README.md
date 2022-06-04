@@ -18,7 +18,7 @@ XSS(Cross-Site Scripting):
 an attacker to submit specially crafted javascript payloads that are persistently stored and executed
 when a user on the Zena system navigates to Client Manager logs and shows details for the log.
 POC code – placed into the username field on the login page:
-</li><img/src='fail'/onerror=alert("vulnerable")></img>
+```</li><img/src='fail'/onerror=alert("vulnerable")></img>```
 
 XSS(Cross-Site Scripting):
 • Type: Stored XSS
@@ -26,4 +26,4 @@ XSS(Cross-Site Scripting):
 • Description: Certain input fields in the connector creation allow for an attacker to submit specially
 crafted arbitrary javascript payloads that are persistently stored and executed when loading the page
 POC code - placed into the Name input field:
-</li><img/src='fail'/onerror=alert("vulnerable")></img>
+```</li><img/src='fail'/onerror=alert("vulnerable")></img>```
