@@ -1,4 +1,5 @@
 # Zena
+Housekeeping notes: The original CookieMonster Repo can be found here https://github.com/JetP1ane/zena
 
 CVE-2021-45026 XSS
 
