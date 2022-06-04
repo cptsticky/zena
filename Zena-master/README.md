@@ -1,7 +1,10 @@
 # Zena
 ## Proof of Concept code for XSS to CSRF to Remote Code Execution exploit for asg-zena
+
 CVE-2021-45025 Cleartext Storage of Sensitive Information in a Cookie
+
 CVE-2021-45026 Stored Cross Site Scripting (XSS)
+
 Authors: James Barnett and Jeffrey Green
 **To Run:**
 - python CookieMonster.py <hostname/ip> <TLS/SSL - True or False> <cmd.exe command>
