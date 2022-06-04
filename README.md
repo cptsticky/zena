@@ -19,6 +19,7 @@ POC code – placed into the username field on the login page:
 XSS(Cross-Site Scripting):
 
 • Type: Stored XSS
+
 • Pages Affected: /webconfig/index.html requires authentication. the webconfig page has a hardcoded default password.
 
 Description: Certain input fields in the connector creation allow for an attacker to submit specially
