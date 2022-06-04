@@ -17,9 +17,11 @@ POC code – placed into the username field on the login page:
 ```</li><img/src='fail'/onerror=alert("vulnerable")></img>```
 
 XSS(Cross-Site Scripting):
+
 • Type: Stored XSS
 • Pages Affected: /webconfig/index.html requires authentication. the webconfig page has a hardcoded default password.
-• Description: Certain input fields in the connector creation allow for an attacker to submit specially
+
+Description: Certain input fields in the connector creation allow for an attacker to submit specially
 crafted arbitrary javascript payloads that are persistently stored and executed when loading the page
 POC code - placed into the Name input field:
 
