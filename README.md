@@ -4,9 +4,12 @@
 
 Zena – ClientManager:
 XSS(Cross-Site Scripting):
+
 • Type: Stored XSS – Unauthenticated
+
 • Pages Affected: /zena/index.html
-• Description: User input field(and probably more fields) on the Zena ClientManager login page allow for
+
+Description: User input field(and probably more fields) on the Zena ClientManager login page allow for
 an attacker to submit specially crafted javascript payloads that are persistently stored and executed
 when a user on the Zena system navigates to Client Manager logs and shows details for the log.
 POC code – placed into the username field on the login page: 
