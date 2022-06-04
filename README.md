@@ -1,5 +1,8 @@
 # Zena
 
+CVE-2021-45026 XSS
+CVE-2021-45025 Cleartext Storage of Sensitive Information in a Cookie
+
 ## Zena CookieMonster: POC code for XSS to RCE
 
 The CookieMonster POC is a proof of concept for achieving Remote Code Execution on the Zena Server and ALL of it's connected endpoints.
@@ -40,9 +43,7 @@ POC code - placed into the Name input field:
 
 ## Proof of Concept code for XXE to SSRF to Data Exfiltration exploit for asg-zena
 
-CVE-xxxx-xxxxx XXE
-
-CVE-xxxx-xxxxx SSRF
+CVE-2021-45024 XXE
 
 Authors: James Barnett and Jeffrey Green
 
