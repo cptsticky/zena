@@ -1,9 +1,9 @@
 # Zena
 ## Proof of Concept code for XSS to CSRF to Remote Code Execution exploit for asg-zena
 
-CVE-2021-45025 Cleartext Storage of Sensitive Information in a Cookie
+CVE-xxxx-xxxxx Cleartext Storage of Sensitive Information in a Cookie
 
-CVE-2021-45026 Stored Cross Site Scripting (XSS)
+CVE-xxxx-xxxxx Stored Cross Site Scripting (XSS)
 
 Authors: James Barnett and Jeffrey Green
 **To Run:**
@@ -40,9 +40,9 @@ POC code - placed into the Name input field:
 
 ## Proof of Concept code for XXE to SSRF to Data Exfiltration exploit for asg-zena
 
-CVE-2021-45024 XXE
+CVE-xxxx-xxxxx XXE
 
-CVE-2021-45022 SSRF
+CVE-xxxx-xxxxx SSRF
 
 Authors: James Barnett and Jeffrey Green
 
