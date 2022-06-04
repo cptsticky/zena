@@ -1,6 +1,6 @@
 # Zena
 Housekeeping notes: The original CookieMonster Repo can be found here https://github.com/JetP1ane/zena
-
+Rocket Software Patch Release notes https://docs.rocketsoftware.com/bundle/ven1649700711249/page/ayk1652945111726.html
 CVE-2021-45026 XSS
 
 CVE-2021-45025 Cleartext Storage of Sensitive Information in a Cookie
