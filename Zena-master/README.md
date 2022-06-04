@@ -17,7 +17,7 @@ XSS(Cross-Site Scripting):
 • Description: User input field(and probably more fields) on the Zena ClientManager login page allow for
 an attacker to submit specially crafted javascript payloads that are persistently stored and executed
 when a user on the Zena system navigates to Client Manager logs and shows details for the log.
-POC code – placed into the username field on the login page:
+POC code – placed into the username field on the login page: 
 ```</li><img/src='fail'/onerror=alert("vulnerable")></img>```
 
 XSS(Cross-Site Scripting):
