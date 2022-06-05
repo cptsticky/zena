@@ -3,9 +3,11 @@ Housekeeping notes: The original CookieMonster Repo can be found here https://gi
 
 Rocket Software Patch Release notes https://docs.rocketsoftware.com/bundle/ven1649700711249/page/ayk1652945111726.html
 
-CVE-2021-45026 XSS
+CVE-2021-45026 Stored XSS
 
 CVE-2021-45025 Cleartext Storage of Sensitive Information in a Cookie
+
+Researchers: James Barnett and Jeffrey Green
 
 ## Zena CookieMonster: POC code for XSS to RCE
 
@@ -30,12 +32,12 @@ POC code – placed into the username field on the login page:
 
 XSS(Cross-Site Scripting):
 
-• Type: Stored XSS
+• Type: Stored XSS - Authenticated
 
 • Pages Affected: /webconfig/index.html requires authentication. the webconfig page has a hardcoded default password.
 
 Description: Certain input fields in the connector creation allow for an attacker to submit specially
-crafted arbitrary javascript payloads that are persistently stored and executed when loading the page
+crafted arbitrary javascript payloads that are persistently stored and executed when loading the page. While this vulnerability is "authenticated", due to the default hard coded password for this page, it is likely very common for this password to remain unchanged in production.
 POC code - placed into the Name input field:
 
 ```</li><img/src='fail'/onerror=alert("vulnerable")></img>```
